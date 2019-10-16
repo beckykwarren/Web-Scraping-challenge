@@ -1,0 +1,196 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+    padding: 0px 0px;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0B2027;
+    background: #EDE7DC;
+  }
+  
+  header {
+    padding: 20px 20px;
+    background: #0B2027;
+  }
+  
+  h1 {
+    padding: 0px 0px;
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 28px;
+    color: #40798C;
+    text-align: left;
+  }
+  
+  h2 {
+    padding: 0px 0px;
+    font-size: 35px;
+    color: #0B2027;
+
+  }
+
+  h3 {
+    padding: 0px 0px;
+    color: #40798C;
+    font-size: 18px;
+  }
+  
+  a {
+    color: #CE636D;
+  }
+  
+  #emphasise {
+    border: 2px solid #CE636D;
+    border-radius: 5px;
+  }
+
+
+  
+
+  /* Selecting elements by class */
+  .container {
+    /*width: 1024px;*/
+    margin: 10 auto;
+  }
+  
+  #navbar-brand {
+    color: #40798C;
+  }
+
+  .navbar {
+    min-height: 67px;
+  }
+  
+  #dropdown-item {
+    background-color: #40798C;
+
+  }
+  .dropdown-item.hover, .dropdown-item:hover {
+    text-decoration: none;
+    background-color: #EDE7DC;
+  }
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #CE636D;
+}
+table {
+  border: 0px solid #0B2027;
+  padding: 8px 8px;
+  font-size: 18px;
+  color: #40798C;
+  margin: 10px 10px ;
+  background: #D1C8B8;
+  
+}
+
+tr:hover {
+    background-color: #CE636D;
+  }
+
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px;
+  color: #40798C;
+  font-size: 18px;
+  }
+
+  td {
+    color: #0B2027;
+    
+  }
+  th {
+    background-color: #40798C;
+    color: white;
+  }
+  tr:nth-child(even) {background-color: #EDE7DC;}
+  th, td {
+    padding: 5px;
+    text-align: left;
+    
+  }
+  tr:hover {background-color: #CE636D;}
+
+  /* Selecting elements by ID */
+  #main-bio,
+  #bio-image {
+    float: left;
+    padding: 0px 0px;
+  }
+  
+  #figure {
+    position: relative;
+  }
+  
+  #bio-name {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+  }
+  
+  #main-1 {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+  }  
+  
+  #main-2 {
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    background: #D1C8B8;
+  }
+  #main-3 {
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+  }  
+  
+  #contact-info {
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    padding: 12px 12px;
+    width: 28%;
+    background: #D1C8B8;
+  }
+  #skills {
+    position: absolute;
+    top: 350px;
+    right: 0;
+    padding: 15px 15px;
+    width: 27%;
+    /*background: #0B2027;*/
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px 15px 10px 0px;
+    box-shadow: 5px 5px 4px #D1C8B8;
+  }
+  
+  
+  
+  @media (max-width: 480px) {
+
+    #contact-info {
+      position: relative;
+      padding: 12px 12px;
+      width: 80%;
+      background: rgba(209, 200, 184, 0);
+      margin: 40px;
+    }
+    #main-bio {
+      width: 90%;
+      padding: 20px 20px;
+    }
+
+  }
+  
